@@ -30,7 +30,7 @@ Irei fazer um code review da sua pull request.
 Irei criar os desafios por demanda, se você está vendo este repositório no futuro, provavelmente já tera todos os desafios criados.
 
  - [x] Desafio dia 1 - (disponível para solução)
- - [x] Desafio dia 2 - (ainda não disponível)
+ - [x] Desafio dia 2 - (disponível para solução)
  - [ ] Desafio dia 3 - (ainda não disponível)
  - [ ] Desafio dia 4 - (ainda não disponível)
  - [ ] Desafio dia 5 - (ainda não disponível)
