@@ -2,17 +2,17 @@
 
 Vamos imaginar que você está desenvolvendo um carrinho de compra.
 Desenvolva uma solução onde o carrinho sera uma lista de produtos.
-Nosso siteminha não terá front, você irá desenvolver apenas a regra
+Nosso sisteminha não terá front, você irá desenvolver apenas a regra
 de manipulação deste carrinho de compra.
 
 ## Requisições do sistema
 
 - Nosso carrinho deverá ser uma lista (array) de produtos.
-- Nós precisamos de uma solução que receba um produto e adione ele 
+- Nós precisamos de uma solução que receba um produto e adicione ele 
 no carrinho
 - Nós precisamos poder retirar um produto especifico do carrinho
 - Nós precisamos poder somar todos os valores dos produtos adicionados
-ao carrinho e retorna o total e se o carrinho estiver vazio deve retorna 0
+ao carrinho e retornar o total e se o carrinho estiver vazio deve retorna 0
 
 ## Regras
 - Use OOP ou Programação funcional. A que se sentir melhor.
