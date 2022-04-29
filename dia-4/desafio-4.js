@@ -1,10 +1,13 @@
-export function dayRate(ratePerHour) {
-  return;
+function dayRate(ratePerHour) {
+  return ratePerHour * 8
+}
+console.log(dayRate(89))
+
+function daysInBudget(budget, ratePerHour) {
+  return Math.round(budget / dayRate(ratePerHour))
 }
 
-export function daysInBudget(budget, ratePerHour) {
-  return;
-}
+console.log(daysInBudget(20000 , 89))
 
 /**
  * Calcule o desconto
@@ -14,6 +17,18 @@ export function daysInBudget(budget, ratePerHour) {
  * @param {number} discount: desconto: 20% será passado como 0.2
  * @returns {number} total que custara o projeto com desconto
  */
-export function priceWithMonthlyDiscount(ratePerHour, numDays, discount) {
-  return;
+function priceWithMonthlyDiscount(ratePerHour, numDays, discount) {
+  const dailyValue = dayRate(ratePerHour)
+  const meses = Math.floor(numDays / 22)
+  const diasUteis = meses * 22
+  const semDesconto = dailyValue * diasUteis
+
+  const valorDiasUteisTotal = semDesconto * (1 - discount)
+
+  const diasSobrados = numDays % 22
+  const totalDiasSobradoSemDesconto = diasSobrados * dailyValue
+
+  return Math.round(totalDiasSobradoSemDesconto + valorDiasUteisTotal)
 }
+
+console.log(priceWithMonthlyDiscount(89, 230, 0.42))
