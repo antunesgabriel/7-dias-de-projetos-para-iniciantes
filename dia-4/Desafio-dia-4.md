@@ -28,6 +28,10 @@ Outro dia, um gerente de projeto oferece ao freelancer para trabalhar em um proj
 ```js
 // Exemplo
 daysInBudget(20000, 89); // nesse caso o calculo deve retornar: 28
+
+// Math.floor(45.6) // 45
+// Math.ceil(45.6) // 46
+// Math.round(45.3) // 45
 ```
 
 <br />
